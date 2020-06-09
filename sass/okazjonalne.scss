@@ -1,0 +1,44 @@
+@import './variables.scss';
+@import './base.scss';
+@import './components.scss';
+
+// CSS for Nested Pages eg. slubne_cywilne.php
+
+////////////////////////////////////
+// HERO AREA
+.another-pages__hero-okazjonalne {
+    width: 100%;
+    height: 100vh;
+    background-color: $white;
+    position: relative;
+    background: url(../img/fhd/fhd__okazjonalne-hero.png);
+    background-position: center;
+
+    @media only screen and (max-width: $bp_4096px) {
+        height: 100vh;
+        background: url(../img/fhd/fhd__okazjonalne-hero.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media only screen and (max-width: $bp_550px) {
+        height: 736px; // for 414px x 736px picture hero
+        background: url(../img/mobile/mobile__okazjonalne-hero414px.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media only screen and (max-width: $bp_375px) {
+        height: 667px; 
+        background: url(../img/mobile/mobile__okazjonalne-hero414px.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media only screen and (max-width: $bp_360px) {
+        height: 640px; 
+        background: url(../img/mobile/mobile__okazjonalne-hero414px.png);
+        background-size: cover;
+        background-position: center;
+    }
+}
