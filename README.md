@@ -22,7 +22,7 @@ A project for a client who wanted a website with an easy content management syst
 * Babel, Gulp
 
 ## Setup
-* Only code for review.
+* Code only for review.
 
 ## Status
 Project is: _finished_
